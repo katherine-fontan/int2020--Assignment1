@@ -5,7 +5,7 @@ CPSC 298
 
 Assignment 1 files:
 
-Cereal.cpp
-FireCapacity.cpp
-EmployeePay.cpp
-Inflation.cpp
+ProblemCereal.cpp
+ProblemFireCapacity.cpp
+ProblemEmployeePay.cpp
+ProblemInflation.cpp
