@@ -27,12 +27,12 @@ int main (int argc, char **argv)
     if (numberPeople <= roomCapacity)
     {
       cout << "You can hold the meeting with the amount of people attending!" << endl;
-
       cout << difference << " additional people may attend the meeting." << endl;
     }
     else
     {
       peopleRemoved = difference * -1;
+
       cout << "Sorry! The meeting cannot be held as plannes due to fire regulations." << endl;
       cout << "Consider excluding " << peopleRemoved << " people in order to meet the fire regulations." << endl;
     }
