@@ -39,5 +39,5 @@ int main (int argc, char **argv)
   //if the number of people exceed the maximum room capacity
     //announce that the meeting cannot be held as planned due to fire regulations
     //tells how many people must be excluded in orded to meet the fire regulations
-
+    return 0;
 }
