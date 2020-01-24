@@ -18,11 +18,11 @@ int main (int argc, char **argv)
 
   const int PAID_RATE = 16;
   const int MEDICAL_INSURANCE = 10;
-  const float SOCIAL_SECURITY_RATE = 0.06;
-  const float FEDERAL_TAX_RATE = 0.14;
-  const float STATE_TAX_RATE = 0.05;
+  const double SOCIAL_SECURITY_RATE = 0.06;
+  const double FEDERAL_TAX_RATE = 0.14;
+  const double STATE_TAX_RATE = 0.05;
   const int NORMAL_HOURS = 40;
-  const float OVERTIME_RATE = 1.5;
+  const double OVERTIME_RATE = 1.5;
   //ask number of hours they worked in a week as input
   cout << "How many hours were worked in a week?" << endl;
   cin >> hoursWorked;
