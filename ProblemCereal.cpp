@@ -18,7 +18,7 @@ using namespace std;
    double packageWeight; //weight of a cereal package in ounces
    double weightMetricTons; // weight of input in metric tons
    double metricTon; // 1 metric ton in ounces
-   double numberOfBoxes;
+   int numberOfBoxes;
 
    metricTon = 35,273.92; //assign value to variable
 
