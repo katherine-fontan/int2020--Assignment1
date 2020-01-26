@@ -20,7 +20,7 @@ using namespace std;
    double metricTon; // 1 metric ton in ounces
    int numberOfBoxes;
 
-   metricTon = 35,273.92; //assign value to variable
+   metricTon = 35273.92; //assign value to variable
 
    //get weight of package from user input
    cout << "What is the weight of your cereal box? " << endl;
