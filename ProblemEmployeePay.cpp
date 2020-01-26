@@ -44,9 +44,10 @@ int main (int argc, char **argv)
 
   netPay = grossPay - ssTax - federalTax - stateTax - MEDICAL_INSURANCE;
 
-  cout << "Based on the hours worked, the gross pay is: $"<< grossPay << endl;
-  cout << "The withholding tax and medical amounts are: $" << ssTax << " for Social Security Tax, $"
-  << federalTax << " for federal income tax, $" << stateTax << " state income tax, and $10 for medical insurance." << endl;
+  cout << "The gross pay is...$"<< grossPay << endl;
+  cout << "Social Security Tax...$" << ssTax << endl;
+  cout << "Federal income tax...$" << federalTax <<endl;
+  cout<< "State income tax...$" <<stateTax<<"  and $10 for medical insurance." << endl;
   cout << "Based on the calculated withholding amounts, your net pay is: $" << netPay << endl;
 
   return 0;
